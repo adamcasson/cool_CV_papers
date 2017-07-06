@@ -7,6 +7,7 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 
 ## Papers
 
+### Visual Question Answering (VQA)
 * [Show, Ask, Attend, and Answer: A Strong Baseline For Visual Question Answering](https://arxiv.org/abs/1704.03162)
   * Not state-of-the-art but they offer a simple architecture utilizing the popular stacked attention approach. No complex multi-modal fusion schemes just simple feature concatenation. Approaches SotA without training on additional data (e.g. Visual Genome).
   * Use of res5c ResNet features is needed for the SAN but requires a considerably large amount of data compared to using no attention mechanism with pool5 features. In other words, each image, when fed into the trainable portion of the network, is represented with a 14x14x2048 tensor rather than a 2048-D vector.
@@ -17,5 +18,6 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
   * The approach here is essentially the same as the previous SotA called [Multimodal Compact Bilinear Pooling (MCB)](https://arxiv.org/abs/1606.01847)
   * The big innovation is their multi-modal fusion scheme. The simplest approach to combine image and question features is simply concatenating the feature vectors. This seems like a naive and weak point in the common VQA approach so it’s appropriate that we see people trying to create more meaningful fusion schemes.
 
+### Pose Estimation
 * [Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1611.08050)
   * Notes coming soon
