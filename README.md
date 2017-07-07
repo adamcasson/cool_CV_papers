@@ -21,3 +21,7 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 ### Pose Estimation
 * Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields [[arXiv](https://arxiv.org/abs/1611.08050)][[pdf](https://arxiv.org/pdf/1611.08050.pdf)][[code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]
   * Notes coming soon
+
+### Object Detection
+* You Only Look Once: Unified, Real-Time Object Detection [[arXix](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640)]
+  * Notes coming soon
