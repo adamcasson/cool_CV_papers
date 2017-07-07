@@ -1,4 +1,4 @@
-# cool_CV_papers
+# Cool Computer Vision Papers
 List of computer vision papers I've come across that are cool, interesting, innovative, or all of the above
 
 Repo start date: June 27, 2017
@@ -9,6 +9,7 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 * [Visual Question Answering](#visual-question-answering)
 * [Pose Estimation](#pose-estimation)
 * [Object Detection](#object-detection)
+* [Relational Reasoning](#relational-reasoning)
 
 ## Papers
 
@@ -28,5 +29,9 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
   * Notes coming soon
 
 ### Object Detection
-* You Only Look Once: Unified, Real-Time Object Detection [[arXiv](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640)]
+* You Only Look Once: Unified, Real-Time Object Detection [[arXiv](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640.pdf)]
+  * Notes coming soon
+
+### Relational Reasoning
+* A Simple Neural Network Module for Relational Reasoning [[arXiv](https://arxiv.org/abs/1706.01427)][[pdf](https://arxiv.org/pdf/1706.01427.pdf)]
   * Notes coming soon
