@@ -5,9 +5,14 @@ Repo start date: June 27, 2017
 
 This collection will not be especially retroactive w.r.t. papers I’ve already read unless I pick them up again to study. Nor is it strictly a reflection of the latest and greatest state-of-the-art approaches for CV problems. It’s mostly a working collection of papers that have served a purpose for my research or simply piqued my interest since the start date of this repo.
 
+## Table of Contents
+* [Visual Question Answering](#visual-question-answering)
+* [Pose Estimation](#pose-estimation)
+* [Object Detection](#object-detection)
+
 ## Papers
 
-### Visual Question Answering (VQA)
+### Visual Question Answering
 * Show, Ask, Attend, and Answer: A Strong Baseline For Visual Question Answering [[arXiv](https://arxiv.org/abs/1704.03162)][[pdf](https://arxiv.org/pdf/1704.03162.pdf)]
   * Not state-of-the-art but they offer a simple architecture utilizing the popular stacked attention approach. No complex multi-modal fusion schemes just simple feature concatenation. Approaches SotA without training on additional data (e.g. Visual Genome).
   * Use of res5c ResNet features is needed for the SAN but requires a considerably large amount of data compared to using no attention mechanism with pool5 features. In other words, each image, when fed into the trainable portion of the network, is represented with a 14x14x2048 tensor rather than a 2048-D vector.
