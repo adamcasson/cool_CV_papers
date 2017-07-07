@@ -23,5 +23,5 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
   * Notes coming soon
 
 ### Object Detection
-* You Only Look Once: Unified, Real-Time Object Detection [[arXix](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640)]
+* You Only Look Once: Unified, Real-Time Object Detection [[arXiv](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640)]
   * Notes coming soon
