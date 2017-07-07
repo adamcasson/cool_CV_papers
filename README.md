@@ -14,7 +14,7 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 ## Papers
 
 ### Visual Question Answering
-* Show, Ask, Attend, and Answer: A Strong Baseline For Visual Question Answering [[arXiv](https://arxiv.org/abs/1704.03162)][[pdf](https://arxiv.org/pdf/1704.03162.pdf)]
+* Show, Ask, Attend, and Answer: A Strong Baseline For Visual Question Answering [[arXiv](https://arxiv.org/abs/1704.03162)][[pdf](https://arxiv.org/pdf/1704.03162.pdf)][[unofficial code](https://github.com/adamcasson/show_ask_attend_answer)]
   * Not state-of-the-art but they offer a simple architecture utilizing the popular stacked attention approach. No complex multi-modal fusion schemes just simple feature concatenation. Approaches SotA without training on additional data (e.g. Visual Genome).
   * Use of res5c ResNet features is needed for the SAN but requires a considerably large amount of data compared to using no attention mechanism with pool5 features. In other words, each image, when fed into the trainable portion of the network, is represented with a 14x14x2048 tensor rather than a 2048-D vector.
   * Will attempt to implement this in Keras soon.
@@ -29,9 +29,9 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
   * Notes coming soon
 
 ### Object Detection
-* You Only Look Once: Unified, Real-Time Object Detection [[arXiv](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640.pdf)]
+* You Only Look Once: Unified, Real-Time Object Detection [[arXiv](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640.pdf)][[code](https://pjreddie.com/darknet/yolo/)]
   * Notes coming soon
 
 ### Relational Reasoning
-* A Simple Neural Network Module for Relational Reasoning [[arXiv](https://arxiv.org/abs/1706.01427)][[pdf](https://arxiv.org/pdf/1706.01427.pdf)]
+* A Simple Neural Network Module for Relational Reasoning [[arXiv](https://arxiv.org/abs/1706.01427)][[pdf](https://arxiv.org/pdf/1706.01427.pdf)][[unofficial code](https://github.com/kimhc6028/relational-networks)]
   * Notes coming soon
