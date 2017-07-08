@@ -26,7 +26,10 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 
 ### Pose Estimation
 * Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields [[arXiv](https://arxiv.org/abs/1611.08050)][[pdf](https://arxiv.org/pdf/1611.08050.pdf)][[code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]
-  * Notes coming soon
+  * Claims to be the first realtime system for multi-person 2D pose detection.
+  * The overall method can be broken into 3 steps: Simultaneous prediction of confidence maps of parts and affinity fields for parts, bipartite matching, and parsing all the parts.
+  * The authors propose a novel non-parametric feature representation called parts affinity fields. These are 2D vectors at each pixel between the key points that make up a limb. This is useful because it encodes location and orientation of limbs.
+  * The overall approach is bottom-up as opposed to the normal top-down approach (run a person detector, detect limbs of each person, etc.). This greatly improves efficiency and runtime is barely affected as the number of people in the image increase.
 
 ### Object Detection
 * You Only Look Once: Unified, Real-Time Object Detection [[arXiv](https://arxiv.org/abs/1506.02640)][[pdf](https://arxiv.org/pdf/1506.02640.pdf)][[code](https://pjreddie.com/darknet/yolo/)]
