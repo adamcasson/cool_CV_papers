@@ -10,6 +10,7 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 * [Pose Estimation](#pose-estimation)
 * [Object Detection](#object-detection)
 * [Relational Reasoning](#relational-reasoning)
+* [3D Computer Vision](#3d-computer-vision)
 
 ## Papers
 
@@ -39,6 +40,6 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 * A Simple Neural Network Module for Relational Reasoning [[arXiv](https://arxiv.org/abs/1706.01427)][[pdf](https://arxiv.org/pdf/1706.01427.pdf)][[unofficial code](https://github.com/kimhc6028/relational-networks)]
   * Notes coming soon
 
-### 3-D Computer Vision
+### 3D Computer Vision
 * Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency [[arXiv](https://arxiv.org/abs/1704.06254)][[pdf](https://arxiv.org/pdf/1704.06254.pdf)][[code](https://github.com/shubhtuls/drc)]
   * Notes coming soon
