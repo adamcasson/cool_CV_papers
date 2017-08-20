@@ -15,6 +15,9 @@ This collection will not be especially retroactive w.r.t. papers I’ve already 
 ## Papers
 
 ### Visual Question Answering
+* Bottom-Up and Top-Down for Image Captioning and Visual Question Answering [[arXiv](https://arxiv.org/abs/1707.07998v2)][[pdf](https://arxiv.org/pdf/1707.07998v2.pdf)][[code](https://github.com/peteanderson80/bottom-up-attention)]
+  * SotA for VQA 2.0 (as of August 20, 2017)
+
 * Show, Ask, Attend, and Answer: A Strong Baseline For Visual Question Answering [[arXiv](https://arxiv.org/abs/1704.03162)][[pdf](https://arxiv.org/pdf/1704.03162.pdf)][[unofficial code](https://github.com/adamcasson/show_ask_attend_answer)]
   * Not state-of-the-art but they offer a simple architecture utilizing the popular stacked attention approach. No complex multi-modal fusion schemes just simple feature concatenation. Approaches SotA without training on additional data (e.g. Visual Genome).
   * Use of res5c ResNet features is needed for the SAN but requires a considerably large amount of data compared to using no attention mechanism with pool5 features. In other words, each image, when fed into the trainable portion of the network, is represented with a 14x14x2048 tensor rather than a 2048-D vector.
